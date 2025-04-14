@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", function(){
 	});
 	existing.addEventListener('click', function(){
 		const existingUser = localStorage.getItem('username');
-		alert(`Logged in as ${savedName}`);
+		alert(`Logged in as ${existingUser}`);
 	})
 	
 })
